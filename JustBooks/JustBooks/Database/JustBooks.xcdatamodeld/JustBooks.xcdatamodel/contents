@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BookCDM" representedClassName="BookCDM" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="bDescription" optional="YES" attributeType="String"/>
+        <attribute name="bId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <relationship name="purchases" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PurchaseCDM" inverseName="book" inverseEntity="PurchaseCDM"/>
+    </entity>
+    <entity name="PurchaseCDM" representedClassName="PurchaseCDM" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="pId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="book" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BookCDM" inverseName="purchases" inverseEntity="BookCDM"/>
+    </entity>
+    <elements>
+        <element name="BookCDM" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="PurchaseCDM" positionX="-54" positionY="45" width="128" height="74"/>
+    </elements>
+</model>

@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410E031E278DB05D00CEF1AF /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410E031D278DB05D00CEF1AF /* Book.swift */; };
+		4125ACCF278EF98700AB6F7A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4125ACCE278EF98700AB6F7A /* SplashViewController.swift */; };
+		4125ACD1278EFB1500AB6F7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4125ACD0278EFB1500AB6F7A /* HomeViewController.swift */; };
+		4125ACD7278F158C00AB6F7A /* Ratio+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4125ACD6278F158C00AB6F7A /* Ratio+Helper.swift */; };
+		413FFF04278EE3660064D2ED /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FFF03278EE3660064D2ED /* UIView+Helper.swift */; };
+		413FFF06278EE4A30064D2ED /* Date+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FFF05278EE4A30064D2ED /* Date+Helper.swift */; };
+		414C2400278C735700730682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C23FF278C735700730682 /* AppDelegate.swift */; };
+		414C2404278C735700730682 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C2403278C735700730682 /* DashboardViewController.swift */; };
+		414C2407278C735700730682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414C2405278C735700730682 /* Main.storyboard */; };
+		414C240A278C735700730682 /* JustBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 414C2408278C735700730682 /* JustBooks.xcdatamodeld */; };
+		414C240C278C735800730682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414C240B278C735800730682 /* Assets.xcassets */; };
+		414C240F278C735800730682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414C240D278C735800730682 /* LaunchScreen.storyboard */; };
+		414C2417278C808300730682 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C2416278C808300730682 /* BookCell.swift */; };
+		414C241E278CB1B900730682 /* PurchasedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C241D278CB1B900730682 /* PurchasedCell.swift */; };
+		414C2420278CB1F500730682 /* PurchaseHisoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C241F278CB1F500730682 /* PurchaseHisoryViewController.swift */; };
+		4175E139278F2B59009DB76B /* Font+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175E138278F2B59009DB76B /* Font+Helper.swift */; };
+		4176AE25278D4BE8007607EC /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176AE24278D4BE8007607EC /* AddBookViewController.swift */; };
+		41AAD9B7278EA66000325DF5 /* Alert+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAD9B6278EA66000325DF5 /* Alert+Helper.swift */; };
+		41AAD9B9278EB8BA00325DF5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAD9B8278EB8BA00325DF5 /* CoreDataManager.swift */; };
+		41CE7318278DBD86007D2144 /* PurchasedBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE7317278DBD86007D2144 /* PurchasedBook.swift */; };
+		41CE731A278DC660007D2144 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE7319278DC660007D2144 /* Constants.swift */; };
+		41CE7327278E0628007D2144 /* TopNavigation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41CE7326278E0628007D2144 /* TopNavigation.xib */; };
+		41CE7329278E0737007D2144 /* TopNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE7328278E0737007D2144 /* TopNavigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410E031D278DB05D00CEF1AF /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		4125ACCE278EF98700AB6F7A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4125ACD0278EFB1500AB6F7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4125ACD2278F01CB00AB6F7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JustBooks/Info.plist; sourceTree = "<group>"; };
+		4125ACD6278F158C00AB6F7A /* Ratio+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ratio+Helper.swift"; sourceTree = "<group>"; };
+		413FFF03278EE3660064D2ED /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		413FFF05278EE4A30064D2ED /* Date+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helper.swift"; sourceTree = "<group>"; };
+		414C23FC278C735700730682 /* JustBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		414C23FF278C735700730682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		414C2403278C735700730682 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		414C2406278C735700730682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		414C2409278C735700730682 /* JustBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustBooks.xcdatamodel; sourceTree = "<group>"; };
+		414C240B278C735800730682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		414C240E278C735800730682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		414C2416278C808300730682 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		414C241D278CB1B900730682 /* PurchasedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedCell.swift; sourceTree = "<group>"; };
+		414C241F278CB1F500730682 /* PurchaseHisoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseHisoryViewController.swift; sourceTree = "<group>"; };
+		4175E138278F2B59009DB76B /* Font+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Helper.swift"; sourceTree = "<group>"; };
+		4176AE24278D4BE8007607EC /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		41AAD9B6278EA66000325DF5 /* Alert+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alert+Helper.swift"; sourceTree = "<group>"; };
+		41AAD9B8278EB8BA00325DF5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		41CE7317278DBD86007D2144 /* PurchasedBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedBook.swift; sourceTree = "<group>"; };
+		41CE7319278DC660007D2144 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		41CE7326278E0628007D2144 /* TopNavigation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopNavigation.xib; sourceTree = "<group>"; };
+		41CE7328278E0737007D2144 /* TopNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414C23F9278C735700730682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410E031C278DB05100CEF1AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				410E031D278DB05D00CEF1AF /* Book.swift */,
+				41CE7317278DBD86007D2144 /* PurchasedBook.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		414C23F3278C735600730682 = {
+			isa = PBXGroup;
+			children = (
+				414C23FE278C735700730682 /* JustBooks */,
+				4125ACD2278F01CB00AB6F7A /* Info.plist */,
+				414C23FD278C735700730682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		414C23FD278C735700730682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414C23FC278C735700730682 /* JustBooks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		414C23FE278C735700730682 /* JustBooks */ = {
+			isa = PBXGroup;
+			children = (
+				41CE731B278DF336007D2144 /* Application */,
+				41CE7321278DF4A1007D2144 /* Constant */,
+				41CE7323278DF505007D2144 /* Database */,
+				414C241A278C94E800730682 /* Helper */,
+				41CE7324278DF528007D2144 /* MVC */,
+				41CE7322278DF4CB007D2144 /* Resources */,
+				41CE7325278E0428007D2144 /* Storyboard */,
+			);
+			path = JustBooks;
+			sourceTree = "<group>";
+		};
+		414C241A278C94E800730682 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4175E138278F2B59009DB76B /* Font+Helper.swift */,
+				41AAD9B6278EA66000325DF5 /* Alert+Helper.swift */,
+				413FFF03278EE3660064D2ED /* UIView+Helper.swift */,
+				413FFF05278EE4A30064D2ED /* Date+Helper.swift */,
+				4125ACD6278F158C00AB6F7A /* Ratio+Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		41CE731B278DF336007D2144 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				414C23FF278C735700730682 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		41CE731C278DF3B1007D2144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41CE731E278DF436007D2144 /* Custom Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41CE731D278DF3E5007D2144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4176AE24278D4BE8007607EC /* AddBookViewController.swift */,
+				414C2403278C735700730682 /* DashboardViewController.swift */,
+				4125ACD0278EFB1500AB6F7A /* HomeViewController.swift */,
+				414C241F278CB1F500730682 /* PurchaseHisoryViewController.swift */,
+				4125ACCE278EF98700AB6F7A /* SplashViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41CE731E278DF436007D2144 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				41CE731F278DF455007D2144 /* Cell */,
+				41CE7320278DF45F007D2144 /* View */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		41CE731F278DF455007D2144 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				414C2416278C808300730682 /* BookCell.swift */,
+				414C241D278CB1B900730682 /* PurchasedCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		41CE7320278DF45F007D2144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41CE7326278E0628007D2144 /* TopNavigation.xib */,
+				41CE7328278E0737007D2144 /* TopNavigation.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41CE7321278DF4A1007D2144 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				41CE7319278DC660007D2144 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		41CE7322278DF4CB007D2144 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				414C240B278C735800730682 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41CE7323278DF505007D2144 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				41AAD9B8278EB8BA00325DF5 /* CoreDataManager.swift */,
+				414C2408278C735700730682 /* JustBooks.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		41CE7324278DF528007D2144 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				410E031C278DB05100CEF1AF /* Model */,
+				41CE731C278DF3B1007D2144 /* View */,
+				41CE731D278DF3E5007D2144 /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		41CE7325278E0428007D2144 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				414C2405278C735700730682 /* Main.storyboard */,
+				414C240D278C735800730682 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414C23FB278C735700730682 /* JustBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414C2413278C735800730682 /* Build configuration list for PBXNativeTarget "JustBooks" */;
+			buildPhases = (
+				414C23F8278C735700730682 /* Sources */,
+				414C23F9278C735700730682 /* Frameworks */,
+				414C23FA278C735700730682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustBooks;
+			productName = JustBooks;
+			productReference = 414C23FC278C735700730682 /* JustBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414C23F4278C735600730682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					414C23FB278C735700730682 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 414C23F7278C735600730682 /* Build configuration list for PBXProject "JustBooks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 414C23F3278C735600730682;
+			productRefGroup = 414C23FD278C735700730682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414C23FB278C735700730682 /* JustBooks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414C23FA278C735700730682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414C240F278C735800730682 /* LaunchScreen.storyboard in Resources */,
+				41CE7327278E0628007D2144 /* TopNavigation.xib in Resources */,
+				414C240C278C735800730682 /* Assets.xcassets in Resources */,
+				414C2407278C735700730682 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414C23F8278C735700730682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414C241E278CB1B900730682 /* PurchasedCell.swift in Sources */,
+				41CE7318278DBD86007D2144 /* PurchasedBook.swift in Sources */,
+				4125ACD1278EFB1500AB6F7A /* HomeViewController.swift in Sources */,
+				413FFF04278EE3660064D2ED /* UIView+Helper.swift in Sources */,
+				4125ACCF278EF98700AB6F7A /* SplashViewController.swift in Sources */,
+				414C2420278CB1F500730682 /* PurchaseHisoryViewController.swift in Sources */,
+				41AAD9B9278EB8BA00325DF5 /* CoreDataManager.swift in Sources */,
+				4175E139278F2B59009DB76B /* Font+Helper.swift in Sources */,
+				414C2404278C735700730682 /* DashboardViewController.swift in Sources */,
+				4125ACD7278F158C00AB6F7A /* Ratio+Helper.swift in Sources */,
+				414C2400278C735700730682 /* AppDelegate.swift in Sources */,
+				41CE7329278E0737007D2144 /* TopNavigation.swift in Sources */,
+				414C240A278C735700730682 /* JustBooks.xcdatamodeld in Sources */,
+				4176AE25278D4BE8007607EC /* AddBookViewController.swift in Sources */,
+				410E031E278DB05D00CEF1AF /* Book.swift in Sources */,
+				414C2417278C808300730682 /* BookCell.swift in Sources */,
+				413FFF06278EE4A30064D2ED /* Date+Helper.swift in Sources */,
+				41CE731A278DC660007D2144 /* Constants.swift in Sources */,
+				41AAD9B7278EA66000325DF5 /* Alert+Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		414C2405278C735700730682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414C2406278C735700730682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		414C240D278C735800730682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414C240E278C735800730682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		414C2411278C735800730682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		414C2412278C735800730682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		414C2414278C735800730682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTMU4PSQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustBooks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justbooks.demo.JustBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		414C2415278C735800730682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTMU4PSQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustBooks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.justbooks.demo.JustBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414C23F7278C735600730682 /* Build configuration list for PBXProject "JustBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414C2411278C735800730682 /* Debug */,
+				414C2412278C735800730682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414C2413278C735800730682 /* Build configuration list for PBXNativeTarget "JustBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414C2414278C735800730682 /* Debug */,
+				414C2415278C735800730682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		414C2408278C735700730682 /* JustBooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				414C2409278C735700730682 /* JustBooks.xcdatamodel */,
+			);
+			currentVersion = 414C2409278C735700730682 /* JustBooks.xcdatamodel */;
+			path = JustBooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 414C23F4278C735600730682 /* Project object */;
+}
